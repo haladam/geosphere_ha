@@ -1,0 +1,12 @@
+{
+  "domain": "geosphere_austria",
+  "name": "GeoSphere Austria Weather",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://data.hub.geosphere.at",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/yourusername/geosphere_austria",
+  "requirements": ["aiohttp>=3.8.0"],
+  "version": "1.0.0"
+}

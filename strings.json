@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up GeoSphere Austria",
+        "description": "Configure your location for weather data from GeoSphere Austria",
+        "data": {
+          "name": "Name",
+          "latitude": "Latitude",
+          "longitude": "Longitude"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to GeoSphere Austria API",
+      "unknown": "Unexpected error occurred"
+    },
+    "abort": {
+      "already_configured": "Location is already configured"
+    }
+  }
+}
